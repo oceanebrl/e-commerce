@@ -1,0 +1,32 @@
+@import "../utils/variables.scss";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-bg;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: $width-max-page;
+  width: 100%;
+  padding: $padding-default;
+  gap: 1rem;
+  &__logo {
+    height: auto;
+    width: 32px;
+  }
+  &__paragraph {
+    font-size: 0.9rem;
+    color: $color-400;
+    text-align: center;
+  }
+  &__link {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,45 @@
+@import "../utils/variables.scss", "../utils/mixins.scss";
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link {
+  &__btn {
+    @include btn-default;
+    &__full {
+      @include btn-full;
+    }
+  }
+}
+
+.icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  &__img {
+    position: absolute;
+    transition: all 0.3s;
+    &__light {
+      opacity: 0;
+    }
+  }
+  &__blob {
+    position: absolute;
+    opacity: 0;
+
+    transition: all 0.3s;
+  }
+  &:hover &__img__dark {
+    opacity: 0;
+  }
+  &:hover &__img__light,
+  &:hover &__blob {
+    opacity: 1;
+  }
+}

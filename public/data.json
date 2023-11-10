@@ -1,0 +1,962 @@
+[
+  {
+    "categorie": "t-shirt",
+    "colors": ["blue", "green", "red"],
+    "description": "Un beau t-shirt à trois couleurs, car nous savons à quel point chaque matin c’est une galère de trouver le t-shirt qui vous conviendra !",
+    "id": "ts9FO7L7N0I0",
+    "image": "https://images.pexels.com/photos/2473741/pexels-photo-2473741.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "name": "T-Shirt Rayé",
+    "note": 3.5,
+    "price": 1999,
+    "sizes": {
+      "xxs": false,
+      "xs": false,
+      "s": false,
+      "m": false,
+      "l": false,
+      "xl": false,
+      "xxl": false
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "jupe",
+    "colors": ["black", "white"],
+    "description": "Les fleurs, ça ne perd jamais en tendance, alors pourquoi ne pas oser la jupe florale ? On a cependant pensé au plus timide, et les couleurs restent sobres.",
+    "id": "ju73G4K9GKHQ",
+    "image": "https://images.pexels.com/photos/601316/pexels-photo-601316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Jupe Florale",
+    "note": 4,
+    "price": 1499,
+    "sizes": {
+      "xxs": false,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": false,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "robe",
+    "colors": ["black", "white"],
+    "description": "Qui aurait pensé qu’un damier pouvait être si vibrant ? Soyez également vibrant ou vibrante grâce à cette robe aux manches bouffantes !",
+    "id": "roJVLO6OWS42",
+    "image": "https://images.pexels.com/photos/833185/pexels-photo-833185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Robe à Carreaux",
+    "note": 5,
+    "price": 2999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "pull",
+    "colors": ["red"],
+    "description": "Vous aimez vous démarquer des autres, et que l’on vous voit traverser la rue avec la bouche en forme de « o » ? Ce pull est fait pour vous !",
+    "id": "puVMLGTR7M37",
+    "image": "https://images.pexels.com/photos/2826422/pexels-photo-2826422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Pull Écarlate",
+    "note": 1,
+    "price": 4999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "chemise",
+    "colors": ["blue", "white"],
+    "description": "Une chemise à rayures. Des mots qui semblent simples, mais on ne vous le répétera jamais assez : la simplicité met en valeur la complexité de votre personnalité !",
+    "id": "chYNIN8HHSVX",
+    "image": "https://images.pexels.com/photos/18455817/pexels-photo-18455817/free-photo-of-homme-lunettes-de-soleil-chemise-debout.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Chemise Rayée",
+    "note": 1.5,
+    "price": 2499,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": false,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "pantalon",
+    "colors": ["blue"],
+    "description": "On n’arrêtera jamais de le rappeler, mais la simplicité c’est ce qui peut mettre en valeur le vrai vous ! Ce Slim Simple se mariera avec tout, et vous n’aurez pas besoin de chercher longtemps un pantalon qui vous plaît.",
+    "id": "pa52U81V5C00",
+    "image": "https://images.pexels.com/photos/2343661/pexels-photo-2343661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Slim Simple",
+    "note": 3.5,
+    "price": 1999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "chemise",
+    "colors": ["yellow"],
+    "description": "Pourquoi cacher ses jolis bras si l’on veut porter une belle chemise ? Plus besoin de retrousser vos manches avec ce vêtement, vous pouvez craquer !",
+    "id": "chVNLHTR7M37",
+    "image": "https://images.pexels.com/photos/720606/pexels-photo-720606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Chemise à Manche Courte",
+    "note": 4.5,
+    "price": 2499,
+    "sizes": {
+      "xxs": false,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": false,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "jupe",
+    "colors": ["blue", "white"],
+    "description": "Un jean, ce n’est pas qu’un pantalon inconfortable, non ! Cela peut-être également une jolie jupe à porter selon ses envies. Pourquoi ne serait-ce pas votre envie à vous ?",
+    "id": "ju1CHIO51MN9",
+    "image": "https://images.pexels.com/photos/1427984/pexels-photo-1427984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Jupe Courte en Jean ",
+    "note": 3,
+    "price": 3499,
+    "sizes": {
+      "xxs": true,
+      "xs": false,
+      "s": false,
+      "m": false,
+      "l": false,
+      "xl": true,
+      "xxl": false
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "t-shirt",
+    "colors": ["black", "white"],
+    "description": "Nous, on ne le savait pas, mais vous, si ! Les t-shirts rayés sont de mode ! Portez ces rayures avec style, et vos amis n’auront d’yeux que pour vous.",
+    "id": "tsD3M2AK7KAD",
+    "image": "https://images.pexels.com/photos/1795521/pexels-photo-1795521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "T-Shirt Rayé",
+    "note": 4,
+    "price": 1599,
+    "sizes": {
+      "xxs": false,
+      "xs": false,
+      "s": false,
+      "m": false,
+      "l": false,
+      "xl": false,
+      "xxl": false
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "pantalon",
+    "colors": ["gray"],
+    "description": "Marre des couleurs foncées pour mettre en valeur vos jolies jambes ? Aujourd’hui, on vous propose un pantalon dans les tons gris clair pour que vous puissiez changer tout en restant vous-même.",
+    "id": "paIQS3HIPWSD",
+    "image": "https://images.pexels.com/photos/2453823/pexels-photo-2453823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Pantalon Clair",
+    "note": 2,
+    "price": 2999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "manteau",
+    "colors": ["brown"],
+    "description": "Un long manteau. Mais la particularité de ce dernier, c’est qu’il a une capuche ! Eh oui, un élément important lorsqu’il fait froid. Restez au sec avec ce manteau, et restez aussi classe.",
+    "id": "maJVLO6OWS53",
+    "image": "https://images.pexels.com/photos/2245432/pexels-photo-2245432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Manteau à Attaches",
+    "note": 2.5,
+    "price": 4999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": false,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "chemise",
+    "colors": ["blue", "white"],
+    "description": "Les chemises à carreaux existent depuis la nuit des temps. Mais ce n’est pas votre cas ! Alors, mêlez la nouveauté à l’ancienneté en portant cette chemise qui saura vous mettre en valeur.",
+    "id": "chROGUOHRYMM",
+    "image": "https://images.pexels.com/photos/769749/pexels-photo-769749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Chemise à Carreaux",
+    "note": 3,
+    "price": 1499,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "pantalon",
+    "colors": ["blue"],
+    "description": "On l’avoue, ce pantalon n’est pas aussi renversant que vous. Mais on ne va pas créer quelque chose qui vous volerait la vedette quand même ? Portez avec fierté ce pantalon !",
+    "id": "paRH0GOYLXOQ",
+    "image": "https://images.pexels.com/photos/2363825/pexels-photo-2363825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Pantalon Taille Haute",
+    "note": 3.5,
+    "price": 2499,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": false,
+      "l": true,
+      "xl": false,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "manteau",
+    "colors": ["brown"],
+    "description": "Un long manteau clair, recouvrant les vêtements portés en dessous. Vous pourriez porter un costard ou un t-shirt avec des pizzas en dessous, que personne ne s’en rendrait compte !",
+    "id": "ma06759PUZKT",
+    "image": "https://images.pexels.com/photos/3206119/pexels-photo-3206119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Long Manteau",
+    "note": 5,
+    "price": 4999,
+    "sizes": {
+      "xxs": false,
+      "xs": false,
+      "s": false,
+      "m": false,
+      "l": false,
+      "xl": false,
+      "xxl": false
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "pantalon",
+    "colors": ["gray"],
+    "description": "Pourquoi porter un pantalon à couleur unie alors que vous pourriez en porter un avec un quadrillage ? Osez les carreaux !",
+    "id": "pa80YU75L0HL",
+    "image": "https://images.pexels.com/photos/2897533/pexels-photo-2897533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Pantalon Quadrillé",
+    "note": 2.5,
+    "price": 1999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": false,
+      "m": false,
+      "l": true,
+      "xl": true,
+      "xxl": false
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "chemise",
+    "colors": ["white"],
+    "description": "La simplicité se marie avec tout. Pour dire, vous pourriez même vous marier avec cette chemise ! Une chemise à boutonner selon les envies.",
+    "id": "ch2TBR0AX9Z2",
+    "image": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Chemise Élégante",
+    "note": 4,
+    "price": 1599,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "chemise",
+    "colors": ["white"],
+    "description": "Il n’y a pas de construction sans démolition. Prouvez cette citation en portant cette chemise aux bords déchirés et portez-la avec style.",
+    "id": "chAN1EA3PVVU",
+    "image": "https://images.pexels.com/photos/18470777/pexels-photo-18470777/free-photo-of-lunettes-de-soleil-chemise-debout-poser.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Chemise Déchirée",
+    "note": 4,
+    "price": 2999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "pantalon",
+    "colors": ["blue", "white"],
+    "description": "Vous avez besoin d’une petite touche d’élégance tout en portant un jean large ? Vous n’avez plus besoin de chercher bien loin avec notre pantalon qui vous offrira ce que vous cherchez.",
+    "id": "pa5AM44F8A4L",
+    "image": "https://images.pexels.com/photos/914668/pexels-photo-914668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Pantalon à Dentelles",
+    "note": 4.5,
+    "price": 2999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": false,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": false
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "sweat",
+    "colors": ["white"],
+    "description": "Un sweat sans lacet, car on sait à quel point c’est un peu relou quand on perd la ficelle et qu’on galère à la remettre. N’ayez plus aucune crainte de porter un sweat à présent !",
+    "id": "swERXQC897B1",
+    "image": "https://images.pexels.com/photos/6311623/pexels-photo-6311623.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "name": "Sweat Blanc",
+    "note": 3.5,
+    "price": 3999,
+    "sizes": {
+      "xxs": false,
+      "xs": false,
+      "s": false,
+      "m": false,
+      "l": false,
+      "xl": false,
+      "xxl": true
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "chemise",
+    "colors": ["blue", "pink", "violet", "white"],
+    "description": "Vous n’avez pas besoin de boutons sur une chemise pour la porter et vous donner fière allure. En plus, si vous hésitez sur les couleurs, vous n’avez plus à vous triturer le cerveau.",
+    "id": "ch4DFP45BIFZ",
+    "image": "https://images.pexels.com/photos/2881786/pexels-photo-2881786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Chemise à Rayures",
+    "note": 2,
+    "price": 2499,
+    "sizes": {
+      "xxs": false,
+      "xs": false,
+      "s": false,
+      "m": false,
+      "l": false,
+      "xl": false,
+      "xxl": false
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "jupe",
+    "colors": ["gray"],
+    "description": "Être à la mode, c’est aussi trouver une jolie jupe à votre goût tout en restant classe ! Cette jupe à carreaux ne vous fait pas de l’œil ?",
+    "id": "juERXPB887B0",
+    "image": "https://images.pexels.com/photos/1007019/pexels-photo-1007019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Jupe à Carreaux ",
+    "note": 4.5,
+    "price": 2499,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "t-shirt",
+    "colors": ["white"],
+    "description": "On ne doutera jamais de votre capacité à avoir de merveilleuses idées. Cependant, nous sommes sûrs que vous apprécierez un petit coup de main, n’est-ce pas ? On est sûr à 1 % que notre T-Shirt à Idées saura vous donner de bonnes idées, ça vaut le coup d’essayer, non ?",
+    "id": "tsIXE96EQ0F7",
+    "image": "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "T-Shirt à Idées",
+    "note": 2,
+    "price": 1499,
+    "sizes": {
+      "xxs": false,
+      "xs": false,
+      "s": false,
+      "m": true,
+      "l": false,
+      "xl": false,
+      "xxl": false
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "sweat",
+    "colors": ["yellow"],
+    "description": "Avec cette couleur éclatante, tel le soleil, vous saurez égayer votre journée, mais également celle des gens que vous croiserez avec ce sweat.",
+    "id": "swAN1EA3PVVU",
+    "image": "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Sweat à Capuche",
+    "note": 4.5,
+    "price": 4999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": false,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "pull",
+    "colors": ["green"],
+    "description": "Si le confort est ce que vous recherchez, ce pull est pour vous. Il est doux, tel un nuage. Excellent pour mêler style et confort.",
+    "id": "puGD5JD6GNBB",
+    "image": "https://images.pexels.com/photos/2705752/pexels-photo-2705752.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "name": "Pull Tricoté",
+    "note": 3.5,
+    "price": 2999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": false,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "t-shirt",
+    "colors": ["pink"],
+    "description": "Il est quelquefois dur de savoir si on veut porter des manches longues ou courtes. Ce t-shirt sera le beau compromis pour votre indécision !",
+    "id": "ts83G4K9GKIQ",
+    "image": "https://images.pexels.com/photos/9558894/pexels-photo-9558894.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "name": "T-Shirt Mi-Long ",
+    "note": 3,
+    "price": 2499,
+    "sizes": {
+      "xxs": true,
+      "xs": false,
+      "s": false,
+      "m": true,
+      "l": true,
+      "xl": false,
+      "xxl": true
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "t-shirt",
+    "colors": ["white"],
+    "description": "Notre devise c’est qu’il en faut pour tous les goûts. Et tous les goûts signifient également la simplicité. Car parfois, vous brillez par le simple fait d’être vous-mêmes.",
+    "id": "ts4CFP45BIEZ",
+    "image": "https://images.pexels.com/photos/235516/pexels-photo-235516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "T-Shirt Simple ",
+    "note": 5,
+    "price": 1799,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": false,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "t-shirt",
+    "colors": ["black", "white"],
+    "description": "On tient à votre santé, et on sait que vous avez des problèmes, comme tout le monde. Alors nous vous proposons une solution écrite sur ce T-Shirt. Prenez-le pour ne pas l’oublier !",
+    "id": "tsS3682JUPE1",
+    "image": "https://images.pexels.com/photos/1311590/pexels-photo-1311590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "T-Shirt à Écriture ",
+    "note": 2,
+    "price": 1999,
+    "sizes": {
+      "xxs": false,
+      "xs": false,
+      "s": false,
+      "m": false,
+      "l": false,
+      "xl": false,
+      "xxl": false
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "manteau",
+    "colors": ["white"],
+    "description": "Du bleu au blanc… On vous assure, ce manteau est neuf ! Mais si vous avez besoin de quelque chose qui semble avoir vécu, ce manteau est fait pour vous.",
+    "id": "maKCA6IGWBSW",
+    "image": "https://images.pexels.com/photos/7083921/pexels-photo-7083921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Manteau Délavé",
+    "note": 3.5,
+    "price": 5999,
+    "sizes": {
+      "xxs": false,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": false,
+      "xxl": true
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "manteau",
+    "colors": ["vert"],
+    "description": "Un manteau ? Oui ! Mais aussi long qu’une robe également. De dos, on ne pourrait même pas deviner ce que vous portez en dessous, quel mystère !",
+    "id": "maXNIN8HHSUW",
+    "image": "https://images.pexels.com/photos/158648/girl-coat-old-coat-brown-coat-158648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Long Manteau à Boutons",
+    "note": 3,
+    "price": 6999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "manteau",
+    "colors": ["gray"],
+    "description": "Vous aimez les couleurs blanc et gris, mais vous ne savez pas laquelle choisir ? Eh bien, choisissez ce manteau avec ce mélange des deux parfaits !",
+    "id": "maR8JD2QS6QT",
+    "image": "https://images.pexels.com/photos/1381553/pexels-photo-1381553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Manteau à Moumoute",
+    "note": 3.5,
+    "price": 6999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "t-shirt",
+    "colors": ["white"],
+    "description": "Que l’on soit à l’école ou non, les maths c’est toujours quelque chose qui nous tend. Avec ce t-shirt, on ne vous garantit pas d’être meilleurs en maths, en revanche, on vous assure que vous serez encore plus éclatant que d’habitude.",
+    "id": "ts06769PUZKT",
+    "image": "https://images.pexels.com/photos/2769297/pexels-photo-2769297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "T-Shirt Égal ",
+    "note": 2,
+    "price": 1299,
+    "sizes": {
+      "xxs": true,
+      "xs": false,
+      "s": true,
+      "m": true,
+      "l": false,
+      "xl": true,
+      "xxl": false
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "chemise",
+    "colors": ["white"],
+    "description": "Finalement, pourquoi avoir plein de boutons sur une chemise lorsque quelques-uns suffisent à la fermer ? Essayez cette chemise style moderne.",
+    "id": "chIXE96EQ0F6",
+    "image": "https://images.pexels.com/photos/247306/pexels-photo-247306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Chemise Blanche",
+    "note": 3,
+    "price": 1599,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": false,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "t-shirt",
+    "colors": ["white"],
+    "description": "On sait que la perfection n’existe pas ni la symétrie parfaite. Alors, autant en jouer avec ce T-Shirt. Montrez à quel point vous vous fichez de la perfection !",
+    "id": "ts3H14EBZ9QQ",
+    "image": "https://images.pexels.com/photos/2220315/pexels-photo-2220315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "T-Shirt Inégal",
+    "note": 2,
+    "price": 2499,
+    "sizes": {
+      "xxs": true,
+      "xs": false,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "jupe",
+    "colors": ["blue", "pink"],
+    "description": "Une jupe en Jean et fendue ! Elle a également une jolie bande rose pour que vous osiez porter ce qui vous correspond !",
+    "id": "ju9FO7L6NZH0",
+    "image": "https://images.pexels.com/photos/1126993/pexels-photo-1126993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Jupe Fendue",
+    "note": 5,
+    "price": 1999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": false,
+      "l": false,
+      "xl": false,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "pull",
+    "colors": ["yellow"],
+    "description": "La moutarde, ça pique le nez si on en mange trop. Mais on vous assure que si vous portez notre pull, vous n’aurez pas ce genre de problème ! Osez la couleur moutarde dans vos tenues !",
+    "id": "pu5QPC5JC6FM",
+    "image": "https://images.pexels.com/photos/3732881/pexels-photo-3732881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Pull Moutarde",
+    "note": 4,
+    "price": 3699,
+    "sizes": {
+      "xxs": false,
+      "xs": false,
+      "s": false,
+      "m": false,
+      "l": false,
+      "xl": false,
+      "xxl": false
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "pantalon",
+    "colors": ["blue", "white"],
+    "description": "Quelquefois, on aimerait donner un coup de jeune en mettant de l’eau de javel sur notre vieux jeans troué… Mais le résultat n’est pas garanti. Ne vous en faites pas, on s’en est chargé pour vous !",
+    "id": "paS3682JUPE1",
+    "image": "https://images.pexels.com/photos/2958620/pexels-photo-2958620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Jean Délavé",
+    "note": 2.5,
+    "price": 2599,
+    "sizes": {
+      "xxs": true,
+      "xs": false,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "robe",
+    "colors": ["green", "white"],
+    "description": "Alors qu’auparavant vous hésitiez entre une robe et une chemise pour paraître irrésistible, aujourd’hui on vous propose les deux combinés !",
+    "id": "ro3H14DBZ8QQ",
+    "image": "https://images.pexels.com/photos/4352249/pexels-photo-4352249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Robe Chemise Florale ",
+    "note": 3.5,
+    "price": 3999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "pull",
+    "colors": ["white"],
+    "description": "Du coton, un nuage… Le blanc représente beaucoup de choses qui paraissent douces. Mais avec ce pull, vous verrez que le confort ne se situe pas seulement dans la couleur !",
+    "id": "pu5AL43F8A4L",
+    "image": "https://images.pexels.com/photos/5407259/pexels-photo-5407259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Pull Tricoté Blanc",
+    "note": 2.5,
+    "price": 5999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": false,
+      "m": true,
+      "l": true,
+      "xl": false,
+      "xxl": false
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "pantalon",
+    "colors": ["blue"],
+    "description": "Un pantalon large, confortable… Mais surtout stylé… C’est ce que vous cherchez ? Eh bien, plus la peine de chercher bien loin !",
+    "id": "paN0ESOG2998",
+    "image": "https://images.pexels.com/photos/3993234/pexels-photo-3993234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Pantalon Confortable",
+    "note": 4,
+    "price": 1999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "chemise",
+    "colors": ["black", "yellow"],
+    "description": "On ne vous apprend rien, vous connaissez déjà les chemises à carreaux. Mais regardez celle-ci ! Elle possède de petits carreaux. Autant dire que vous",
+    "id": "chD4M2BL8KAD",
+    "image": "https://images.pexels.com/photos/1337477/pexels-photo-1337477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Chemises à Petits Carreaux",
+    "note": 2,
+    "price": 1999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "pantalon",
+    "colors": ["blue"],
+    "description": "Un jean c’est souvent peu confortable, alors, pourquoi ne pas prendre ce jean large et cosy ? Allié style et confort dans toutes vos tenues !",
+    "id": "paR8ID2QR6PS",
+    "image": "https://images.pexels.com/photos/10397638/pexels-photo-10397638.jpeg",
+    "name": "Jean Large",
+    "note": 3,
+    "price": 3599,
+    "sizes": {
+      "xxs": true,
+      "xs": false,
+      "s": true,
+      "m": false,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "sweat",
+    "colors": ["blue"],
+    "description": "Quelquefois on porte un sweat, car on fait du sport. Mais parfois, notre sport c’est d’être confortable dans votre canapé. On vous assure que notre sweat convient à vos besoins !",
+    "id": "sw2CHIP51MNA",
+    "image": "https://images.pexels.com/photos/6311075/pexels-photo-6311075.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "name": "Sweat Bleu",
+    "note": 4,
+    "price": 3999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "t-shirt",
+    "colors": ["yellow"],
+    "description": "Vous êtes un soleil, et on le sait. C’est pourquoi nous vous proposons ce t-shirt d’un jaune éclatant qui saura mettre en valeur votre jolie peau !",
+    "id": "tsDUQACYCGME",
+    "image": "https://images.pexels.com/photos/3775119/pexels-photo-3775119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "T-Shirt Ensoleillé ",
+    "note": 2.5,
+    "price": 1399,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "veste",
+    "colors": ["blue"],
+    "description": "Nous, on a appris que récemment que le jean c’était la matière et non le pantalon en lui-même. Alors, pourquoi ne pas en faire une veste super branchée ?",
+    "id": "ve29OXOFYDCW",
+    "image": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Veste en Jean ",
+    "note": 2,
+    "price": 2999,
+    "sizes": {
+      "xxs": false,
+      "xs": true,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": false,
+      "xxl": false
+    },
+    "style": ["masculin"]
+  },
+  {
+    "categorie": "pull",
+    "colors": ["gray"],
+    "description": "Bien que ce pull paraisse simple, portez-le pour créer votre propre chef-d’œuvre, telle une toile vierge. Brillez avec ce pull à l’élégance épurée.",
+    "id": "pu96YC5Z9G44",
+    "image": "https://images.pexels.com/photos/6626903/pexels-photo-6626903.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "name": "Pull Décontracté",
+    "note": 3,
+    "price": 2999,
+    "sizes": {
+      "xxs": true,
+      "xs": true,
+      "s": true,
+      "m": false,
+      "l": true,
+      "xl": true,
+      "xxl": true
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "chemise",
+    "colors": ["brown"],
+    "description": "Que vous la portiez en robe ou accompagné d’autres vêtements, cette longue chemise saura épater les personnes autour de vous.",
+    "id": "chROGUNHRYMM",
+    "image": "https://images.pexels.com/photos/5885840/pexels-photo-5885840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Longue Chemise",
+    "note": 4,
+    "price": 1999,
+    "sizes": {
+      "xxs": true,
+      "xs": false,
+      "s": true,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": false
+    },
+    "style": ["féminin"]
+  },
+  {
+    "categorie": "manteau",
+    "colors": ["gray"],
+    "description": "Un manteau élégant qui saura se mêler à toute votre garde-robe ! Vous n’y croyez pas ? Eh bien, essayez, et vous verrez !",
+    "id": "ma29OXOFYDCW",
+    "image": "https://images.pexels.com/photos/3651597/pexels-photo-3651597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Manteau Gris",
+    "note": 3.5,
+    "price": 6999,
+    "sizes": {
+      "xxs": false,
+      "xs": false,
+      "s": false,
+      "m": false,
+      "l": true,
+      "xl": false,
+      "xxl": false
+    },
+    "style": ["féminin", "masculin"]
+  },
+  {
+    "categorie": "chemise",
+    "colors": ["green", "red", "yellow"],
+    "description": "Le printemps ne devrait pas simplement être une saison, mais également une façon de vivre ! Vivez pleinement votre printemps avec cette chemise aux couleurs éclatantes !",
+    "id": "chDTQABYCGLE",
+    "image": "https://images.pexels.com/photos/1126935/pexels-photo-1126935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Chemise Florale",
+    "note": 3,
+    "price": 2699,
+    "sizes": {
+      "xxs": false,
+      "xs": false,
+      "s": false,
+      "m": true,
+      "l": true,
+      "xl": true,
+      "xxl": false
+    },
+    "style": ["féminin"]
+  }
+]
