@@ -1,11 +1,11 @@
 @import "./variables.scss";
 
 @mixin btn-default {
-  color: $color-main;
   border: 2px solid $color-main;
-  padding: 0.6rem;
   border-radius: 1.25rem;
+  padding: 0.6rem;
   font-weight: 500;
+  color: $color-main;
   transition: all 0.3s;
   &:hover {
     color: $color-highlight;
@@ -14,10 +14,10 @@
 }
 
 @mixin btn-full {
-  color: $color-white;
   background-color: $color-main;
+  color: $color-white;
   &:hover {
-    color: $color-white;
     background-color: $color-highlight;
+    color: $color-white;
   }
 }

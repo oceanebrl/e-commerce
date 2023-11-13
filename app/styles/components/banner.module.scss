@@ -1,0 +1,26 @@
+@import "../utils/variables.scss";
+
+.banner {
+  background-color: $color-200;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__shape {
+    background-color: $color-white;
+    padding: $padding-default;
+    height: 10rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 98px 98px 0 0;
+    z-index: -1;
+  }
+  &__illustration {
+    margin: $padding-default;
+    height: 250px;
+    width: 50%;
+    object-fit: cover;
+  }
+}

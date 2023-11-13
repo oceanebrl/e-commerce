@@ -1,6 +1,7 @@
 /* Components */
 import Image from "next/image";
 import Navigation from "./Navigation";
+import Banner from "./Banner";
 
 /* Styles */
 import styles from "../styles/components/header.module.scss";
@@ -25,6 +26,7 @@ function Header() {
         </div>
         <Navigation />
       </div>
+      <Banner />
     </header>
   );
 }
