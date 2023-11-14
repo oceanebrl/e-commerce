@@ -1,0 +1,131 @@
+@import "../utils/variables.scss";
+
+.wrap {
+  width: 17%;
+  padding: $padding-default;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  width: 100%;
+  &__term {
+    outline: none;
+    border: 2px solid $color-200;
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    width: 80%;
+    padding: 0.5rem 1rem;
+    &::placeholder {
+      color: $color-300;
+    }
+  }
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $color-200;
+    border-radius: 0 25px 25px 0;
+    background-color: $color-200;
+    width: 20%;
+  }
+}
+
+.container {
+  margin-top: $padding-default;
+}
+
+.filter {
+  position: relative;
+  border-bottom: 2px solid $color-200;
+  width: 100%;
+  padding: 0.5rem 0;
+  &__title {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  &__content {
+    margin: 1rem;
+    .checkbox {
+      outline: none;
+      margin-right: 0.5rem;
+    }
+    .label {
+      color: $color-400;
+      &.blue {
+        background-color: blue;
+      }
+    }
+    &__colors {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 1rem;
+      .color {
+        position: relative;
+        border: 2px solid $color-400;
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+
+        &.black {
+          background-color: #8795a1;
+        }
+        &.blue {
+          background-color: #aed7f2;
+        }
+        &.brown {
+          background-color: #c7a686;
+        }
+        &.gray {
+          background-color: #cfcfcf;
+        }
+        &.green {
+          background-color: #b0e57c;
+        }
+        &.pink {
+          background-color: #ffd3e6;
+        }
+        &.red {
+          background-color: #ff8c85;
+        }
+        &.violet {
+          background-color: #d4a6e3;
+        }
+        &.yellow {
+          background-color: #fff7cc;
+        }
+        &__name {
+          position: absolute;
+          top: -2.5rem;
+          left: 50%;
+          visibility: hidden;
+          opacity: 0;
+          transform: translate(-50%);
+          background-color: $color-300;
+          padding: 0.5rem;
+          color: $color-white;
+          transition: opacity 0.3s;
+          transition-delay: 0.5s;
+        }
+        &:hover .color__name {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+  }
+  &::before,
+  &::after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    content: "";
+    background-color: $color-500;
+    height: 1px;
+    width: 1rem;
+  }
+  &::after {
+    transform: rotate(90deg);
+  }
+}

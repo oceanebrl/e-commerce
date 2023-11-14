@@ -1,26 +1,27 @@
 @import "../utils/variables.scss";
 
 .banner {
-  background-color: $color-200;
-  position: relative;
   z-index: 1;
+  position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  background-color: $color-200;
   &__shape {
-    background-color: $color-white;
-    padding: $padding-default;
-    height: 10rem;
-    width: 100%;
+    z-index: -1;
     position: absolute;
     bottom: 0;
     border-radius: 98px 98px 0 0;
-    z-index: -1;
+    background-color: $color-white;
+    height: 10rem;
+    width: 100%;
+    padding: $padding-default;
   }
   &__illustration {
     margin: $padding-default;
     height: 250px;
     width: 50%;
     object-fit: cover;
+    padding-top: $padding-default;
   }
 }

@@ -1,5 +1,17 @@
+@import "../utils/variables.scss";
+
 .main {
+  max-width: $width-max-page;
+  width: 100%;
+  padding: $padding-default;
+  margin: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.container {
+  flex-grow: 1;
+  background-color: $color-100;
+  padding: $padding-default;
 }
